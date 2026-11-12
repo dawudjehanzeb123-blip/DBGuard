@@ -1,0 +1,45 @@
+{
+    "expected_permissions": {
+        "reader": [
+            "SELECT"
+        ],
+        "admin": [
+            "SELECT",
+            "INSERT",
+            "UPDATE",
+            "DELETE"
+        ],
+        "report_viewer": [
+            "SELECT"
+        ]
+    },
+    "users": [
+        {
+            "username": "test_user2",
+            "role": "reader",
+            "permissions": [
+                "SELECT"
+            ]
+        },
+        {
+            "username": "missing_test.",
+            "role": "reader",
+            "permissions": []
+        },
+        {
+            "username": "history_test.",
+            "role": "reader",
+            "permissions": [
+                "SELECT"
+            ]
+        },
+        {
+            "username": "report_viewer",
+            "role": "reader",
+            "permissions": [
+                "SELECT",
+                "DELETE"
+            ]
+        }
+    ]
+}

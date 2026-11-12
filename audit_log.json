@@ -1,0 +1,50 @@
+[
+    {
+        "time": "2026-11-01 16:08:28",
+        "action": "User added",
+        "username": "history_test.",
+        "details": "Role: reader; permissions: SELECT"
+    },
+    {
+        "time": "2026-11-05 17:24:09",
+        "action": "User added",
+        "username": "test_check",
+        "details": "Role: reader; permissions: SELECT"
+    },
+    {
+        "time": "2026-11-05 17:30:24",
+        "action": "User edited",
+        "username": "test_check",
+        "details": "Role: report_viewer; permissions: UPDATE"
+    },
+    {
+        "time": "2026-11-05 17:31:31",
+        "action": "User deleted",
+        "username": "test_check",
+        "details": "User removed from sample data"
+    },
+    {
+        "time": "2026-11-05 17:45:08",
+        "action": "User added",
+        "username": "report_viewer",
+        "details": "Role: reader; permissions: SELECT, DELETE"
+    },
+    {
+        "time": "2026-11-12 22:21:00",
+        "action": "User added",
+        "username": "dbguard_test",
+        "details": "Role: reader; permissions: SELECT"
+    },
+    {
+        "time": "2026-11-12 22:22:05",
+        "action": "User edited",
+        "username": "dbguard_test",
+        "details": "Role: reader; permissions: None"
+    },
+    {
+        "time": "2026-11-12 22:22:10",
+        "action": "User deleted",
+        "username": "dbguard_test",
+        "details": "User removed from PostgreSQL"
+    }
+]

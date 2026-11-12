@@ -1,0 +1,13 @@
+# Protect database credentials
+.streamlit/secrets.toml
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
