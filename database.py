@@ -7,9 +7,9 @@ from psycopg.rows import dict_row
 def connect_to_database():
     """Connect to the PostgreSQL database."""
     return psycopg.connect(
-        **st.secrets["database"],
-        row_factory=dict_row
-    )
+    st.secrets["database"]["url"],
+    row_factory=dict_row
+)
 
 
 def initialise_database():
